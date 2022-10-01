@@ -1,4 +1,6 @@
 #!/bin/bash
+clear
+echo Here is the list of installed Flatpak packages:
 ls /var/lib/flatpak/app
 
 echo Which program would you like to run?
