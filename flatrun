@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
 echo Here is the list of installed Flatpak packages:
-ls /var/lib/flatpak/app
-
+#ls /var/lib/flatpak/app
+flatpak list
 echo Which program would you like to run?
 
 read varname
