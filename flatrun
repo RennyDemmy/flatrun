@@ -6,3 +6,4 @@ echo Which program would you like to run?
 read varname
 
 flatpak run $varname
+## based on the following tutorial: https://ryanstutorials.net/bash-scripting-tutorial/bash-input.php
