@@ -1,0 +1,8 @@
+#!/bin/bash
+ls /var/lib/flatpak/app
+
+echo Which program would you like to run?
+
+read varname
+
+flatpak run $varname
